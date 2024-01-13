@@ -45,27 +45,31 @@ const Header = () => {
   });
   return (
     <div className={styles.Header}>
-      <div className={styles.logo}>
-        <img
-          className={styles.logoFull1}
-          alt=""
-          src="/logo-full-11@2x.png"
-          onClick={() => router.push(`/`)}
-        />
-        <div className={styles.searchContainer}>
+      {/* this is header which we have to woke on  */}
+
+      <div className="bg-blue-600 flex items-center justify-between p-8 shadow-offset-x-negative-3 shadow-offset-y-2 shadow-blur-8 shadow-color-rgba-0-0-0-0-1">
+        <div className="head_img ">
+          <img
+            className="w-[10.313rem] h-[5rem] object-cover p-1 "
+            alt=""
+            src="/logo-full-11@2x.png"
+            onClick={() => router.push(`/`)}
+          />
+        </div>
+
+        <div className=" w-[60%]">
           <form className={styles.formMobile}>
             <input
               type="text"
-              placeholder="Search.."
+              placeholder="Search..."
               name="search"
-              className={styles.SearchInput2}
+              className="w-[60%] p-3 text-center"
             />
-            <button type="submit">
-              <i className="">Search</i>
-            </button>
+            <button type="submit">Search</button>
           </form>
         </div>
       </div>
+      {/* this is header which we have to woke on  */}
 
       <div>
         <div style={{ display: "flex", flexDirection: "row" }}>

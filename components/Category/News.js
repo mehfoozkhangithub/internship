@@ -197,7 +197,7 @@ const News = ({ blogs }) => {
 
               <div className="btn_div py-2 px-2 ">
                 <button
-                  className="bg-red-500 hover:bg-transparent hover:border-solid hover:!text-red-500 hover:border-[1px]  hover:border-red-500 text-white  md:font-medium p-1 text-mini md:py-2 md:px-1  w-full border-none  duration-500 rounded ease-in-out cursor-pointer "
+                  className="bg-crimson hover:bg-transparent hover:border-solid hover:!text-crimson hover:border-[1px]  hover:border-crimson text-white  md:font-medium p-1 text-mini md:py-2 md:px-1  w-full border-none  duration-500 rounded ease-in-out cursor-pointer "
                   onClick={() => router.push(`/blog/${trending._id}`)}
                 >
                   Read More

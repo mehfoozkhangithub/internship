@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       colors: {
         white: "#fff",
-        firebrick: "#d9262a",
+        crimson: "#d9262a",
         black: "#000",
         darkslategray: "#4a4a4a",
         dimgray: "#636363",
@@ -22,7 +22,7 @@ module.exports = {
           100: "#c5c5c5",
           200: "#bbb",
         },
-        crimson: "#a1181b",
+        firebrick: "#a1181b",
         whitesmoke: "#f2f2f2",
         gainsboro: "#d9d9d9",
       },
