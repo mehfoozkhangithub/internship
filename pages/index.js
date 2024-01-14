@@ -8,6 +8,7 @@ import FrameComponent5 from "./frame-component5";
 import FrameComponent6 from "./frame-component6";
 import FrameComponent7 from "./frame-component7";
 import FrameComponent8 from "./frame-component8";
+
 import FrameComponent9 from "./frame-component9";
 import Banner from "../components/Banner";
 

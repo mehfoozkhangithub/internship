@@ -47,7 +47,7 @@ const Header = () => {
     <div className={styles.Header}>
       {/* this is header which we have to woke on  */}
 
-      <div className="bg-blue-600 flex items-center justify-between p-8 shadow-offset-x-negative-3 shadow-offset-y-2 shadow-blur-8 shadow-color-rgba-0-0-0-0-1">
+      <div className=" flex items-center justify-between p-8 shadow-offset-x-negative-3 shadow-offset-y-2 shadow-blur-8 shadow-color-rgba-0-0-0-0-1">
         <div className="head_img ">
           <img
             className="w-[10.313rem] h-[5rem] object-cover p-1 "
@@ -63,9 +63,14 @@ const Header = () => {
               type="text"
               placeholder="Search..."
               name="search"
-              className="w-[60%] p-3 text-center"
+              className="w-[60%] p-3 text-center rounded border-1"
             />
-            <button type="submit">Search</button>
+            <button
+              className="bg-crimson hover:bg-transparent hover:border-solid hover:!text-crimson hover:border-[1px]  hover:border-crimson text-white ease-in-out duration-500 cursor-pointer rounded border-none py-2 px-4"
+              type="submit"
+            >
+              Search
+            </button>
           </form>
         </div>
       </div>
@@ -113,7 +118,7 @@ const Header = () => {
               className={styles.navbar}
               onClick={() => router.push(`/category/article`)}
             >
-              Aricles
+              Articles
             </div>
             <div
               className={styles.navbar}
