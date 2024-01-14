@@ -30,7 +30,7 @@ const index = () => {
       <br /> */}
       {/* <FrameComponent2 />
       <br /> */}
-      {/* <FrameComponent9 />   */}
+      {/* <FrameComponent9 /> */}
       <Footer />
     </div>
   );
