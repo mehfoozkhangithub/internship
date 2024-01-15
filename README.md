@@ -507,3 +507,135 @@ export default subscription;
 
 
 js```
+
+
+
+
+<!-- #directorygridpagination -->
+```js
+ <div className="grid grid-cols-4 gap-4 mx-20 my-2 font-poppins">
+      <div className="col-span-4 flex justify-center mt-4 mx-24">
+        <ul className="flex space-x-2">
+          {Array.from({ length: 26 }).map((_, index) => (
+            <button
+              className={`bg-red-500 hover:bg-red-900 text-white font-bold py-2 px-2 rounded ${selectedMonth === index + 1 ? "bg-red-900" : ""
+                }`}
+              onClick={() => setSelectedMonth(index + 1)}
+            >
+              {monthNames[index]}
+            </button>
+          ))}
+        </ul>
+      </div>
+      <div className="col-span-4 grid grid-cols-4 gap-4 ">
+        <div className="col-span-1 grid grid-cols-1 gap-1 ">
+          <div className="col-span-1 grid grid-cols-1 gap-1">
+            <div
+              className="bg-white shadow-lg rounded-lg overflow-hidden max-w-full border border-solid border-gray-300"
+              style={{ maxHeight: "300px", overflowY: "auto" }}
+            >
+              <div className="p-6">
+                <ul className="list-none p-0 text-gray-500 mb-2">
+                  {Array.from(
+                    new Set(trendingPosts.map((blog) => blog.selectedIndustry))
+                  )
+                    .filter((industry) => industry && isNaN(Number(industry)))
+                    .map((industry, index) => (
+                      <div key={industry._id}>
+                        <a
+                          href={`#industry-${index}`}
+                          className="text-blue-500 hover:underline"
+                          onClick={() => filterByIndustry(industry)}
+                        >
+                          {industry}
+                        </a>
+                      </div>
+                    ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-span-2 grid grid-cols-2 gap-2  ">
+          {trendingPosts.map((trending) => (
+            <div
+              key={trending._id}
+              className={`bg-white shadow-lg rounded-lg overflow-hidden max-w-full ${hoveredBlogId === trending._id ? "shadow-xl" : ""
+                }`}
+              onMouseEnter={() => handleBlogHover(trending._id)}
+              onMouseLeave={handleBlogHoverLeave}
+            >
+              <img
+                src={
+                  trending.logo
+                } // Use a placeholder image path
+                alt={trending.title}
+                className="h-40 w-full object-fit-contain"
+              />
+              <div className="p-6">
+                <h2 className="text-xl font-semibold mb-2">{trending.title}</h2>
+                <p className="text-gray-500 mb-2">{trending.designation}</p>
+                <h4 className="text-gray-500 mb-2">
+                  {trending.selectedIndustry}
+                </h4>
+                <p className="text-gray-500 mb-4">{trending.acti_date}</p>
+                <button
+                  className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                  onClick={() => router.push(`/directories/${trending._id}`)}
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="col-span-1 grid grid-cols-1 gap-1 ">
+          <div className="col-span-1 grid grid-cols-1 gap-1">
+            <DirectoryAds />
+          </div>
+        </div>
+        <div className="col-span-4 flex justify-center mt-8">
+          {totalPages > 1 && (
+            <nav>
+              <ul className="flex space-x-6">
+                <li>
+                  <button
+                    className={`bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-2 rounded`}
+                    onClick={() => paginate(currentPage - 1)}
+                    disabled={currentPage === 1}
+                  >
+                    Previous
+                  </button>
+                </li>
+                {pageNumbers.map((pageNumber, index) => (
+                  <div key={index}>
+
+                    <button
+                      className={`bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-2 rounded ${currentPage === pageNumber ? "bg-red-700" : ""
+                        }`}
+                      onClick={() => paginate(pageNumber)}
+                    >
+                      {pageNumber}
+                    </button>
+                  </div>
+                ))}
+                <li>
+                  <button
+                    className={`bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-2 rounded`}
+                    onClick={() => paginate(currentPage + 1)}
+                    disabled={currentPage === totalPages}
+                  >
+                    Next
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          )}
+        </div>
+      </div>
+    </div>
+
+
+
+
+```
