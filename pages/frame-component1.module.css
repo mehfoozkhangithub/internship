@@ -102,8 +102,9 @@
 .formMobile {
   display: flex;
   /* flex-direction: column; */
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  gap: 12px;
   height: 100%;
 }
 

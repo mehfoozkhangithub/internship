@@ -58,12 +58,15 @@ const Header = () => {
         </div>
 
         <div className=" w-[60%]">
-          <form className={styles.formMobile}>
+          <form
+            className="flex justify-center items-center gap-3 h-full
+          "
+          >
             <input
               type="text"
               placeholder="Search..."
               name="search"
-              className="w-[60%] p-3 text-center rounded border-1"
+              className="w-[60%] px-3 py-2 text-center rounded border-1"
             />
             <button
               className="bg-crimson hover:bg-transparent hover:border-solid hover:!text-crimson hover:border-[1px]  hover:border-crimson text-white ease-in-out duration-500 cursor-pointer rounded border-none py-2 px-4"
