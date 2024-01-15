@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <>
       <div className="main_div mt-[50px]">
-        {/* parent container start  */}
+        {/* parent container_1 start  */}
         <div className="parents_container mb-4">
           <h1 className="text-crimson_200 text-[50px] text-center pb-[103px] font-bold">
             About Us
@@ -106,7 +106,19 @@ const AboutUs = () => {
           <hr className="border-[2px] border-solid w-[90%] m-auto bg-[#666363] " />
           {/* child_container start */}
         </div>
-        {/* parent container start  */}
+        {/* parent container end  */}
+        {/* parent container_1 start  */}
+        <div className="parent_container_2">
+          <div className="child_container_2">
+            <div className="img_tag"></div>
+            <div className="info">
+              <p> </p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        {/* parent container_1 end  */}
       </div>
     </>
   );
