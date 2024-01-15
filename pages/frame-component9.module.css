@@ -10,11 +10,7 @@
   align-items: center;
   background-color: #a1181b;
   color: #fff;
-<<<<<<< HEAD
   /* border-top-left-radius: 200px; */
-=======
-  border-top-left-radius: 200px;
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   height: 400px;
 
   /* Adjust the height as needed */
@@ -26,13 +22,12 @@
   height: 400px;
   flex-direction: column;
   align-items: center;
-
 }
 
 /* Featured Content Title */
 .featuredContent1 {
   font-size: 36px;
-  font-family: 'poppins';
+  font-family: "poppins";
   /* margin-bottom: 20px; */
   margin-right: 10px;
 }
@@ -54,7 +49,6 @@
   transition: 0.7s;
   background-color: rgb(255, 255, 255);
   color: black;
-
 }
 
 .rectangleParent:hover {
@@ -74,7 +68,7 @@
 /* Blog Title */
 .blogTitle {
   font-size: 18px;
-  font-family: 'poppins';
+  font-family: "poppins";
   font-weight: 500;
   margin-bottom: 5px;
   text-align: center;
@@ -125,8 +119,6 @@
   position: relative;
   display: flex;
   width: 100%;
-
-
 }
 
 /* Carousel Wrapper */

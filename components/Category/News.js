@@ -133,15 +133,6 @@ const News = ({ blogs }) => {
   // $ here we have start the component.
   return (
     //# this is parent div
-<<<<<<< HEAD
-    <div className="this_div1 grid grid-cols-4 gap-3  my-2 mx-12 font-poppins  ">
-      {/* this sec div where all the post come */}
-      <div className="this_div2 col-span-3 grid grid-cols-3 gap-3 mx-10  ">
-        {trendingPosts.map((trending) => (
-          <div
-            key={trending._id}
-            className={`this_div3 bg-white shadow-lg rounded-lg  max-w-full h-auto  ${
-=======
     <div className="this_div1 grid my-4 lg:grid-cols-4 lg:gap-3 xl:mx-12 lg:my-2 lg:mx-5 font-poppins grid-rows-1 ">
       {/* this sec div where all the post come */}
       <div className="this_div2  lg:col-span-3 grid lg:grid-cols-3   gap-3 2xl:mx-10 lg:mx-7 ">
@@ -149,89 +140,11 @@ const News = ({ blogs }) => {
           <div
             key={trending._id}
             className={`this_div3_container mx-2 lg:m-0 bg-white shadow-lg rounded-lg   w-[87%] lg:max-w-full h-[17rem] lg:h-auto  ${
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
               hoveredBlogId === trending._id ? "shadow-xl" : ""
             }`}
             onMouseEnter={() => handleBlogHover(trending._id)}
             onMouseLeave={handleBlogHoverLeave}
           >
-<<<<<<< HEAD
-                    <div className="w-full h-[40%] bg-black ">   
-                      <img
-                      src={
-                          trending.image ||
-                          "https://wwwd601d2yq4c.cdn.e2enetworks.net/ia-log-2020.png"
-                        } // Use a placeholder image path
-                        alt={trending.title}
-                        className="this_img h-40 w-full object-fill"
-                      />
-                      </div>
-
-            <div className="this_card w-full h-[60%] flex flex-col gap-2">
-              <div className="info_div pt-2 px-2 bg-white  h-[70%]">
-                <h2 className="text-mini font-semibold w-fit mt-2">
-
-                  {screen.availWidth === 1024
-                    ? trending.title && (
-                        <div
-                          className=""
-                          dangerouslySetInnerHTML={{
-                            __html: `${trending.title
-                              .split(" ")
-                              .slice(0, 6)
-                              .join(" ")}${
-                              trending.title.split(" ").length > 6 ? " ..." : ""
-                            }`,
-                          }}
-                        />
-                      )
-                    : trending.title && (
-                        <div
-                          className=""
-                          dangerouslySetInnerHTML={{
-                            __html: `${trending.title
-                              .split(" ")
-                              .slice(0, 3)
-                              .join(" ")}${
-                              trending.title.split(" ").length > 6 ? " ..." : ""
-                            }`,
-                          }}
-                        />
-                      )}
-
-                </h2>
-                <h2 className="text-mini text-gray-500  w-fit mt-2 ">
-                  {screen.availWidth === 1024
-                    ? trending.brief && (
-                        <div
-                          dangerouslySetInnerHTML={{
-                            __html: `${trending.brief
-                              .split(" ")
-                              .slice(0, 6)
-                              .join(" ")}${
-                              trending.brief.split(" ").length > 6 ? " ..." : ""
-                            }`,
-                          }}
-                        />
-                      )
-                    : trending.brief && (
-                        <div
-                          dangerouslySetInnerHTML={{
-                            __html: `${trending.brief
-                              .split(" ")
-                              .slice(0, 2)
-                              .join(" ")}${
-                              trending.brief.split(" ").length > 6 ? " ..." : ""
-                            }`,
-                          }}
-                        />
-                      )}
-                </h2>
-                <p className="text-gray-200 mb-2 text-3xs ">
-                {trending.selectedIndustry}
-              </p>
-                <p className="text-gray-500  text-3xs mt-3">
-=======
             <div className="div_img lg:w-full  h-[40%]  ">
               <img
                 src={
@@ -278,18 +191,13 @@ const News = ({ blogs }) => {
                   {trending.selectedIndustry}
                 </p>
                 <p className="text-gray-500 text-[7px]  md:text-mini  lg:text-3xs mt-3">
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
                   {formatDate(trending.createdAt)}
                 </p>
               </div>
 
               <div className="btn_div py-2 px-2 ">
                 <button
-<<<<<<< HEAD
-                  className="bg-red-500 hover:bg-transparent hover:border-solid hover:!text-red-500 hover:border-[1px]  hover:border-red-500 text-white font-medium py-2 px-1 w-full border-none  duration-500 rounded ease-in-out cursor-pointer  "
-=======
                   className="bg-crimson hover:bg-transparent hover:border-solid hover:!text-crimson hover:border-[1px]  hover:border-crimson text-white  md:font-medium p-1 text-mini md:py-2 md:px-1  w-full border-none  duration-500 rounded ease-in-out cursor-pointer "
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
                   onClick={() => router.push(`/blog/${trending._id}`)}
                 >
                   Read More
@@ -304,15 +212,6 @@ const News = ({ blogs }) => {
           <HomeAds />
         </div>
       </div>
-<<<<<<< HEAD
-      <div className="col-span-5 flex justify-center mt-8">
-        {totalPages > 1 && (
-          <nav>
-            <ul className="flex lg:space-x-6 md:space-x-2 list-none">
-              <li>
-                <button
-                  className="bg-red-500 hover:bg-transparent hover:border-solid hover:!text-red-500 hover:border-[1px]  hover:border-red-500 text-white font-medium py-2 px-3 w-full border-none  duration-500 rounded ease-in-out "
-=======
       <div className="col-span-5 flex justify-center mt-8 w-full ">
         {totalPages > 1 && (
           <nav>
@@ -320,7 +219,6 @@ const News = ({ blogs }) => {
               <li>
                 <button
                   className="bg-crimson hover:bg-transparent hover:border-solid hover:!text-crimson hover:border-[1px]  hover:border-crimson text-white font-medium py-2 px-3 w-full border-none  duration-500 rounded ease-in-out cursor-pointer"
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
                   onClick={() => paginate(currentPage - 1)}
                   disabled={currentPage === 1}
                 >
@@ -330,11 +228,7 @@ const News = ({ blogs }) => {
               {pageNumbers.map((pageNumber) => (
                 <li key={pageNumber}>
                   <button
-<<<<<<< HEAD
-                    className={`bg-red-500 hover:bg-transparent hover:border-solid hover:!text-red-500 hover:border-[1px]  hover:border-red-500 text-white font-medium py-2 px-3 w-full border-none  duration-500 rounded ease-in-out ${
-=======
                     className={`bg-crimson hover:bg-transparent hover:border-solid hover:!text-crimson hover:border-[1px]  hover:border-crimson text-white font-medium py-2 px-3 w-full border-none  duration-500 rounded ease-in-out cursor-pointer ${
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
                       currentPage === pageNumber ? "bg-red-700" : ""
                     }`}
                     onClick={() => paginate(pageNumber)}
@@ -345,11 +239,7 @@ const News = ({ blogs }) => {
               ))}
               <li>
                 <button
-<<<<<<< HEAD
-                  className={`bg-red-500 hover:bg-transparent hover:border-solid hover:!text-red-500 hover:border-[1px]  hover:border-red-500 text-white font-medium py-2 w-full border-none  duration-500 rounded ease-in-out  px-4`}
-=======
                   className={`bg-crimson hover:bg-transparent hover:border-solid hover:!text-crimson hover:border-[1px]  hover:border-crimson text-white font-medium py-2 w-full border-none  duration-500 rounded ease-in-out  px-4 cursor-pointer`}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
                   onClick={() => paginate(currentPage + 1)}
                   disabled={currentPage === totalPages}
                 >

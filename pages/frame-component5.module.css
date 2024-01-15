@@ -19,7 +19,6 @@
 .featuredContent {
   display: flex;
   height: 500px;
-  ;
   flex-direction: column;
   align-items: center;
 }
@@ -27,7 +26,7 @@
 /* Featured Content Title */
 .featuredContent1 {
   font-size: 36px;
-  font-family: 'poppins';
+  font-family: "poppins";
   margin-bottom: 20px;
 }
 
@@ -64,17 +63,12 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: rgb(255, 255, 255);
   color: black;
-<<<<<<< HEAD
-  
-=======
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
 }
 
 .rectangleParent:hover {
   transform: scale(1.1);
   z-index: 9;
 }
-
 
 /* Blog Image */
 .groupChild {
@@ -87,7 +81,7 @@
 /* Blog Title */
 .blogTitle {
   font-size: 18px;
-  font-family: 'poppins';
+  font-family: "poppins";
   font-weight: 500;
   margin-bottom: 5px;
   text-align: center;
@@ -97,7 +91,7 @@
 .desc {
   font-weight: normal;
   font-size: 15px;
-  font-family: 'poppins';
+  font-family: "poppins";
   font-weight: 400;
   margin-bottom: 5px;
   color: #000000;
@@ -158,12 +152,9 @@
   /* max-width: 1200px; */
   transition: transform 0.3s ease;
   /* Animation for sliding effect */
-<<<<<<< HEAD
   background-color: black;
   justify-content: center;
   align-items: center;
-=======
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
 }
 
 /* Sliding Buttons */

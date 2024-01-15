@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useRouter } from "next/router";
 import styles from "./frame-component6.module.css";
 const FrameComponent6 = () => {
@@ -9,62 +8,31 @@ const FrameComponent6 = () => {
         {/* outer div */}
         <div className="md:absolute mb-3 md:mb-0 md:ml-2  grid  grid-cols-2 md:grid-cols-6 xl:grid-cols-8  grid-rows-8 md:grid-rows-3 lg:grid-rows-2 xl:grid-rows-2 gap-2 md:gap-4 xl:gap-6  w-full h-1/2 md:h-full  md:bg-transparent md:grid    md:z-1">
           <div className=" md:col-span-2 md:row-span-3 md:col-start-5 xl:col-start-7 ">
-          <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-March-2023.pdf">
-            <img
-              className="w-full h-full"
-=======
-import styles from "./frame-component7.module.css";
-const FrameComponent7 = () => {
-  return (
-    <div className={styles.ctaParent}>
-      <div className={styles.cta}>
-        <div className={styles.ctaChild} />
-        <div className={styles.rectangleParent}>
-          <div className={styles.groupChild} />
-          <b className={styles.subscribeNow} onClick={() => router.push(`/subscription/subscription`)} style={{cursor:"pointer"}}>Subscribe Now</b>
-        </div>
-        <div className={styles.magazineAd}>Magazine Ad</div>
-        <div className={styles.magazineDetails}>Magazine Details</div>
-        <div className={styles.rectangleGroup}>
-          <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-March-2023.pdf">
-            <img
-              className={styles.groupItem}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
-              alt=""
-              src="https://wwwd601d2yq4c.cdn.e2enetworks.net/content/Mar-2023.jpg"
-            />
-          </a>
-<<<<<<< HEAD
+            <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-March-2023.pdf">
+              <img
+                className="w-full h-full"
+                alt=""
+                src="https://wwwd601d2yq4c.cdn.e2enetworks.net/content/Mar-2023.jpg"
+              />
+            </a>
           </div>
-         <div className="md:row-start-1 xl:col-start-2">
-          <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-Feb-2023.pdf">
-            <img
-              className="h-full w-full"
-=======
-          <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-Feb-2023.pdf">
-            <img
-              className={styles.groupInner}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
-              alt=""
-              src="https://wwwd601d2yq4c.cdn.e2enetworks.net/content/Feb-2023.jpg"
-            />
-          </a>
-<<<<<<< HEAD
+          <div className="md:row-start-1 xl:col-start-2">
+            <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-Feb-2023.pdf">
+              <img
+                className="h-full w-full"
+                alt=""
+                src="https://wwwd601d2yq4c.cdn.e2enetworks.net/content/Feb-2023.jpg"
+              />
+            </a>
           </div>
-            <div className="md:row-start-1 xl:row-start-1 xl:col-start-3">
-          <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-December-2022.pdf">
-            <img
-              className="h-full w-full"
-=======
-          <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-Jan-2023.pdf">
-            <img
-              className={styles.rectangleIcon}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
-              alt=""
-              src="https://wwwd601d2yq4c.cdn.e2enetworks.net/content/jan-2023.jpg"
-            />
-          </a>
-<<<<<<< HEAD
+          <div className="md:row-start-1 xl:row-start-1 xl:col-start-3">
+            <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-December-2022.pdf">
+              <img
+                className="h-full w-full"
+                alt=""
+                src="https://wwwd601d2yq4c.cdn.e2enetworks.net/content/jan-2023.jpg"
+              />
+            </a>
           </div>
           <div className="md:row-start-1 xl:row-start-1  xl:col-start-4  ">
             <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-June-2023.pdf">
@@ -75,7 +43,7 @@ const FrameComponent7 = () => {
               />
             </a>
           </div>
-         <div className="md:row-start-1 xl:row-start-1  xl:col-start-5">
+          <div className="md:row-start-1 xl:row-start-1  xl:col-start-5">
             <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-May-2023.pdf">
               <img
                 className="w-full h-full"
@@ -98,8 +66,6 @@ const FrameComponent7 = () => {
         {/* inner div red lane div */}
 
         <div className="w-full bg-firebrick mb-7    xl:mb-32 flex md:justify-start flex-col md:flex-row ">
-          
-
           <div className=" md:pt-0 mx-auto md:mx-3 xl:w-[20%] lg:w-[20%]  xl:ml-60 lg:ml-12 md:mr-20 lg:mr-2   flex justify-center items-center  z-50 ">
             <span
               className=" bg-gainsboro  px-4 lg:px-2  xl:px-4 my-3 rounded-md text-black font-medium md:font-semibold  md:text-[23px] xl:text-9xl cursor-pointer"
@@ -118,39 +84,10 @@ const FrameComponent7 = () => {
               Magazine Details{" "}
             </div>
           </div>
-
-
-=======
-          <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-December-2022.pdf">
-            <img
-              className={styles.groupChild1}
-              alt=""
-              src="https://wwwd601d2yq4c.cdn.e2enetworks.net/content/December-2022.jpg"
-            />
-          </a>
-          <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-November-2022.pdf">
-            <img
-              className={styles.groupChild2}
-              alt=""
-              src="https://wwwd601d2yq4c.cdn.e2enetworks.net/content/November-2022.jpg"
-            />
-          </a>
-          <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-October-2022.pdf">
-            <img
-              className={styles.groupChild3}
-              alt=""
-              src="https://wwwd601d2yq4c.cdn.e2enetworks.net/content/October-2022.jpg"
-            />
-          </a>
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         </div>
       </div>
     </div>
   );
 };
 
-<<<<<<< HEAD
 export default FrameComponent6;
-=======
-export default FrameComponent7;
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960

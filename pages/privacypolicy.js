@@ -10,8 +10,7 @@ const privacypolicy = () => {
       <Header />
       <Banner />
       <div
-<<<<<<< HEAD
-      className="w-full flex items-center justify-center flex-col font-poppins "
+        className="w-full flex items-center justify-center flex-col font-poppins "
         // style={{
         //   display: "flex",
         //   justifyContent: "center",
@@ -20,7 +19,7 @@ const privacypolicy = () => {
         //   fontFamily: "poppins",
         // }}
       >
-         <h1 className="text-[17px] md:text-9xl">Privacy Policy</h1>
+        <h1 className="text-[17px] md:text-9xl">Privacy Policy</h1>
         <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
@@ -29,25 +28,6 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          flexDirection: "column",
-          fontFamily: "poppins",
-        }}
-      >
-        <h1>Privacy Policy</h1>
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           This Website Is Owned And Managed By IED Communications Limited. By
           Accessing And Using The Www. Industrialautomationindia.In Web Site,
@@ -56,7 +36,6 @@ const privacypolicy = () => {
           The Web Site.
         </div>
         <div
-<<<<<<< HEAD
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[13px] md:text-[16px]  "
           // style={{
           //   border: "dashed 1px grey",
@@ -64,15 +43,6 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           As You Browse Through The Website And IED Communications Limited Sites
           You May Access Other Web Sites That Are Subject To Different Terms Of
@@ -82,8 +52,7 @@ const privacypolicy = () => {
           The Other Terms & Conditions Will Govern With Respect To Use Of Such
           Pages.
         </div>
-<<<<<<< HEAD
-       <div
+        <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[13px] md:text-[16px] "
           // style={{
           //   border: "dashed 1px grey",
@@ -91,23 +60,12 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           IED Communications Limited May Change These Terms & Conditions At Any
           Time Without Notice. Changes Will Be Posted On The Website Under
           "Terms & Conditions".
         </div>
         <div
-<<<<<<< HEAD
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[13px] md:text-[16px] "
           // style={{
           //   border: "dashed 1px grey",
@@ -115,15 +73,6 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           Your Use Of The Web Site After Any Changes Have Been Posted Will
           Constitute Your Agreement To The Modified Terms & Conditions And All
@@ -132,8 +81,7 @@ const privacypolicy = () => {
         </div>
       </div>
       <div
-<<<<<<< HEAD
-      className=" w-full flex items-center justify-center flex-col font-poppins "
+        className=" w-full flex items-center justify-center flex-col font-poppins "
         // style={{
         //   display: "flex",
         //   justifyContent: "center",
@@ -142,8 +90,8 @@ const privacypolicy = () => {
         //   fontFamily: "poppins",
         // }}
       >
-      <h1 className="text-[17px] md:text-9xl">Use Of Website</h1>
-          <div
+        <h1 className="text-[17px] md:text-9xl">Use Of Website</h1>
+        <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -151,49 +99,19 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          flexDirection: "column",
-          fontFamily: "poppins",
-        }}
-      >
-        <h1>Use Of Website</h1>
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           IED Communications Limited Hereby Grants You A Non-Exclusive,
           Non-Transferable, Limited License To Access And Use The Web Site For
           The Fees, If Applicable, And Under The Terms Set Forth Below.
         </div>
-<<<<<<< HEAD
-         <div
+        <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
           //   maxWidth: "1000px",
           //   padding: "25px",
-          //   margin: "10px",    
+          //   margin: "10px",
           // }}
-=======
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           The Web Site And The Content, Including, But Not Limited To, Text,
           Data, Reports, Opinions, Images, Photos, Graphics, Graphs, Charts,
@@ -207,7 +125,6 @@ const privacypolicy = () => {
           Prior Written Consent Of IED Communications Limited
         </div>
         <div
-<<<<<<< HEAD
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -215,15 +132,6 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           The Content Is The Exclusive Property Of IED Communications Limited Or
           Its Licensors, And Is Protected By Copyright And Other Intellectual
@@ -242,8 +150,7 @@ const privacypolicy = () => {
           Communications Limited Material, Please Contact IED Communications
           Limited At Operations@Industrialautomationindia.In
         </div>
-<<<<<<< HEAD
-      <div
+        <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -251,26 +158,15 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           You May Not Use The Web Site For Any Unlawful Purpose. You Shall Honor
           All Reasonable Requests By The Website To Protect IED Communications
           Limited's Proprietary Interests In The Website.
         </div>
-<<<<<<< HEAD
-       </div>
+      </div>
       <div
-      className=" w-full flex items-center justify-center flex-col font-poppins "
-     
+        className=" w-full flex items-center justify-center flex-col font-poppins "
+
         // style={{
         //   display: "flex",
         //   justifyContent: "center",
@@ -288,37 +184,15 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          flexDirection: "column",
-          fontFamily: "poppins",
-        }}
-      >
-        <h1>Registration</h1>
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           As Part Of The Registration Process, You Must Select A Username And
           Password And Provide The Website With Accurate, Complete, And Updated
           Information. Failure To Do So Constitutes A Breach Of This Agreement,
           Which May Result In Immediate Termination Of Your Access.
-<<<<<<< HEAD
-         </div>
-    </div>
+        </div>
+      </div>
       <div
-      className="w-full flex items-center justify-center flex-col font-poppins "
+        className="w-full flex items-center justify-center flex-col font-poppins "
         // style={{
         //   display: "flex",
         //   justifyContent: "center",
@@ -328,7 +202,7 @@ const privacypolicy = () => {
         // }}
       >
         <h1 className="text-[17px] md:text-9xl">Limitation Of Liability</h1>
-       <div
+        <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -336,28 +210,6 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-        </div>
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          flexDirection: "column",
-          fontFamily: "poppins",
-        }}
-      >
-        <h1>Limitation Of Liability</h1>
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           You Are Entirely Liable For Activities Conducted By You In Connection
           With Your Browsing And Use Of The Web Site. If You Are Dissatisfied
@@ -366,8 +218,7 @@ const privacypolicy = () => {
           The Website Will Not Pay You Any Damages In Connection With Your
           Browsing Or Use Of The Web
         </div>
-<<<<<<< HEAD
-         <div
+        <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -375,16 +226,6 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           Due To The Number Of Sources From Which The Content Is Obtained And
           The Potential Hazards Of Electronic Distribution, There May Be Delays,
@@ -417,8 +258,7 @@ const privacypolicy = () => {
           ANYONE ELSE FOR ANY DECISION MADE OR ACTION TAKEN BY YOU IN RELIANCE
           ON SUCH CONTENT OR THE WEB SITE.
         </div>
-<<<<<<< HEAD
-         <div
+        <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -426,26 +266,15 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           The Website Assumes No Responsibility For The Use Of Third Party
           Software On The Website And Shall Have No Liability Whatsoever To Any
           Person Or Entity For The Accuracy Or Completeness Of Any Outcome
           Generated By Such Software.
         </div>
-<<<<<<< HEAD
-     </div>
-      <div 
-      className="w-full flex items-center justify-center flex-col font-poppins "
+      </div>
+      <div
+        className="w-full flex items-center justify-center flex-col font-poppins "
         // style={{
         //   display: "flex",
         //   justifyContent: "center",
@@ -463,27 +292,6 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          flexDirection: "column",
-          fontFamily: "poppins",
-        }}
-      >
-        <h1>Links To Other Websites</h1>
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           You May, Through Hypertext Or Other Computer Links, Gain Access To Web
           Sites Operated By Persons Other Than The Website Such Hyperlinks Are
@@ -498,10 +306,9 @@ const privacypolicy = () => {
           Responsible For Determining The Extent To Which You May Use Any
           Content At Any Other Web Sites To Which You Link From The Web Site.
         </div>
-<<<<<<< HEAD
-       </div>
+      </div>
       <div
-      className="w-full flex items-center justify-center flex-col font-poppins "
+        className="w-full flex items-center justify-center flex-col font-poppins "
         // style={{
         //   display: "flex",
         //   justifyContent: "center",
@@ -519,27 +326,6 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          flexDirection: "column",
-          fontFamily: "poppins",
-        }}
-      >
-        <h1>Users Content</h1>
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           The User Grants To IED Communications Limited The Non-Exclusive Right
           To Use All Material Entered Into The Web Site By The User (Other Than
@@ -548,7 +334,6 @@ const privacypolicy = () => {
           Publications ("Other Content").
         </div>
         <div
-<<<<<<< HEAD
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -556,15 +341,6 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           Users Entering Material Into The Web Site Are Responsible For The
           Other Content. Neither The Website Nor IED Communications Limited Has
@@ -576,8 +352,7 @@ const privacypolicy = () => {
           Content That The Website Deems To Be Illegal, Offensive, Or Otherwise
           Inappropriate.
         </div>
-<<<<<<< HEAD
-       <div
+        <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -585,23 +360,12 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           You May Not Input Or Distribute Any Material Through The Web Site That
           Is Promotional In Nature, Including Solicitations For Funds Or
           Business, Without The Prior Written Authorization Of The Website.
         </div>
-<<<<<<< HEAD
-       <div
+        <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -609,16 +373,6 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           The User Agrees To Indemnify The Website And IED Communications
           Limited From All Damages, Liabilities, Costs, Charges And Expenses,
@@ -628,10 +382,9 @@ const privacypolicy = () => {
           Of This Agreement; Or (Ii) Material Entered Into The Web Site With The
           Use Of The User's Screen Name Or Password.
         </div>
-<<<<<<< HEAD
-   </div>
-         <div
-         className="w-full flex items-center justify-center flex-col font-poppins "
+      </div>
+      <div
+        className="w-full flex items-center justify-center flex-col font-poppins "
         // style={{
         //   display: "flex",
         //   justifyContent: "center",
@@ -640,7 +393,9 @@ const privacypolicy = () => {
         //   fontFamily: "poppins",
         // }}
       >
-        <h1 className="text-[17px] md:text-9xl">Payments, Cancellation & Refunds</h1>
+        <h1 className="text-[17px] md:text-9xl">
+          Payments, Cancellation & Refunds
+        </h1>
         <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
@@ -649,33 +404,11 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          flexDirection: "column",
-          fontFamily: "poppins",
-        }}
-      >
-        <h1>Payments, Cancellation & Refunds</h1>
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           All Information, Reports, Content And Access Rights Purchased On The
           Website Are Non Refundable.
         </div>
-<<<<<<< HEAD
-          <div
+        <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -683,16 +416,6 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           We As A Merchant Shall Be Under No Liability Whatsoever In Respect Of
           Any Loss Or Damage Arising Directly Or Indirectly Out Of The Decline
@@ -700,10 +423,9 @@ const privacypolicy = () => {
           Having Exceeded The Preset Limit Mutually Agreed By Us With Our
           Acquiring Bank From Time To Time.
         </div>
-<<<<<<< HEAD
-     </div>
-       <div
-       className="w-full flex items-center justify-center flex-col font-poppins "
+      </div>
+      <div
+        className="w-full flex items-center justify-center flex-col font-poppins "
         // style={{
         //   display: "flex",
         //   justifyContent: "center",
@@ -721,34 +443,12 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          flexDirection: "column",
-          fontFamily: "poppins",
-        }}
-      >
-        <h1>Additional Legal Terms</h1>
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           This Agreement Will Continue Until Terminated By Either The Or You.
           Either Party Can Terminate The Agreement By Notifying The Other Party
           By Telephone Or Electronic Mail Of The Decision To Terminate.
         </div>
         <div
-<<<<<<< HEAD
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -756,21 +456,11 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           IED Communications Limited May Discontinue Or Change The Web Site Or
           Its Availability To You, At Any Time.
         </div>
         <div
-<<<<<<< HEAD
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -778,15 +468,6 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           This Agreement Constitutes The Entire Agreement Between The Parties
           Relating To Web Site And Supersedes Any And All Other Agreements, Oral
@@ -805,10 +486,9 @@ const privacypolicy = () => {
           Agreement Shall Be Brought Exclusively In The Courts Of Bangalore. All
           Rights Not Expressly Granted Herein Are Reserved.
         </div>
-<<<<<<< HEAD
-    </div>
+      </div>
       <div
-      className="w-full flex items-center justify-center flex-col font-poppins "
+        className="w-full flex items-center justify-center flex-col font-poppins "
         // style={{
         //   display: "flex",
         //   justifyContent: "center",
@@ -826,34 +506,12 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          flexDirection: "column",
-          fontFamily: "poppins",
-        }}
-      >
-        <h1>Cyber Security</h1>
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           You Expressly Agree Not To Use This Web Site In Any Manner Or For Any
           Purpose That Is Prohibited By These Terms And Conditions. In Addition,
           You Expressly Agree Not To:
         </div>
         <div
-<<<<<<< HEAD
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -861,21 +519,11 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           (1) Use The Web Site For Any Purpose That Is Prohibited By Any Law Or
           Regulation, Or To Facilitate The Violation Of Any Law Or Regulation;
         </div>
-<<<<<<< HEAD
-         <div
+        <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -883,16 +531,6 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           (2) Use Or Attempt To Use Any "Deep-Link," "Scraper," "Robot," "Bot,"
           "Spider," "Data Mining," "Computer Code" Or Any Other Automated
@@ -903,7 +541,6 @@ const privacypolicy = () => {
           Express Written Consent;
         </div>
         <div
-<<<<<<< HEAD
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -911,23 +548,13 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           (3) Obtain Or Attempt To Obtain Through Any Means Any Materials Or
           Information On The Web Site That Have Not Been Intentionally Made
           Publicly Available Either By Their Public Display On The Web Site Or
           Through Their Accessibility By A Visible Link On The Web Site;
         </div>
-<<<<<<< HEAD
-         <div
+        <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -935,22 +562,11 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           (4) In Any Way Bypass Or Circumvent Any Other Measure Employed To
           Limit Or Pre-Vent Access To The Web Site Or Its Content;
         </div>
-<<<<<<< HEAD
-      <div
+        <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -958,24 +574,13 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           (5) Violate The Security Of The Web Site Or Attempt To Gain
           Unauthorized Access To The Web Site, Data, Materials, Information,
           Computer Systems Or Networks Connected To Any Server Associated With
           This Web Site, Through Hacking, Password Mining Or Any Other Means;
         </div>
-<<<<<<< HEAD
-         <div
+        <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -983,16 +588,6 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           (6) Interfere Or Attempt To Interfere With The Proper Working Of The
           Web Site Or Any Activities Conducted On Or Through The Web Site,
@@ -1000,8 +595,7 @@ const privacypolicy = () => {
           The Time That It Is Intended To Be Available To The Public On The Web
           Site;
         </div>
-<<<<<<< HEAD
-         <div
+        <div
           className="container w-[90%] md:w-[80%] border-dashed border-[1px] border-gray-600 box-border p-2  md:p-4 mb-4 text text-[12px] md:text-[16px]"
           // style={{
           //   border: "dashed 1px grey",
@@ -1009,27 +603,13 @@ const privacypolicy = () => {
           //   padding: "25px",
           //   margin: "10px",
           // }}
-=======
-        <div
-          className="container"
-          style={{
-            border: "dashed 1px grey",
-            maxWidth: "1000px",
-            padding: "25px",
-            margin: "10px",
-          }}
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         >
           (7) Take Or Attempt Any Action That, In The Sole Discretion Of This
           Web Site's Operators, Imposes Or May Impose An Unreasonable Or
           Disproportionately Large Load Or Burden On The Web Site Or Such
           Operation's Infrastructure.
         </div>
-<<<<<<< HEAD
-      </div> 
-=======
       </div>
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
       <Footer />
     </div>
   );

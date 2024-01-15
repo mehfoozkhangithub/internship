@@ -38,11 +38,7 @@ const HomeAds = () => {
         padding: 0, // Remove default padding
       }}
     >
-<<<<<<< HEAD
-      {ads.map((ad,index) => (
-=======
       {ads.map((ad, index) => (
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         <li
           key={index}
           className="ad-item"
@@ -55,15 +51,7 @@ const HomeAds = () => {
             <img
               src={ad.image}
               alt={ad.name}
-<<<<<<< HEAD
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-              }}
-=======
               className="w-full h-full object-fill"
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
             />
           </a>
         </li>

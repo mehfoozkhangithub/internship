@@ -22,21 +22,12 @@
   width: 281px;
 }
 .rectangleParent {
-<<<<<<< HEAD
   /* position: absolute;
   top: 90px;
   left: 804px; */
   width: 436px;
   height: 100%;
   /* text-align: left; */
-=======
-  position: absolute;
-  top: 90px;
-  left: 804px;
-  width: 436px;
-  height: 85px;
-  text-align: left;
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   font-size: var(--font-size-xl);
   color: var(--color-black);
   font-family: var(--font-poppins);
