@@ -3,7 +3,6 @@ import styles from "./frame-component6.module.css";
 const FrameComponent6 = () => {
   const router = useRouter();
   return (
-<<<<<<< HEAD
     <div className="w-full  h-full text-center md:h-[447px]  2xl:h-[509px] text-11xl text-white font-poppins my-3  ">
       <div className="w-full h-full md:w-[95%] md:relative  md:flex place-items-end   ">
         {/* outer div */}
@@ -114,19 +113,6 @@ export default FrameComponent6;
 
 {
   /* <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-Sep-2023.pdf">
-=======
-    <div className={styles.ctaParent}>
-      <div className={styles.cta}>
-        <div className={styles.ctaChild} />
-        <div className={styles.rectangleParent}>
-          <div className={styles.groupChild} />
-          <b className={styles.subscribeNow} onClick={() => router.push(`/subscription/subscription`)} style={{cursor:"pointer"}}>Subscribe Now</b>
-        </div>
-        <div className={styles.magazineAd}>Magazine Ad</div>
-        <div className={styles.magazineDetails}>Magazine Details</div>
-        <div className={styles.rectangleGroup}>
-          <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-Sep-2023.pdf">
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
             <img
               className={styles.groupItem}
               alt=""
@@ -160,30 +146,14 @@ export default FrameComponent6;
               alt=""
               src="https://wwwd601d2yq4c.cdn.e2enetworks.net/content/May-2023.jpg"
             />
-<<<<<<< HEAD
           </a> */
 }
 {
   /* <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-April-2023.pdf">
-=======
-          </a>
-          <a href="https://magazine-automation.s3.ap-south-1.amazonaws.com/ia-April-2023.pdf">
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
             <img
               className={styles.groupChild3}
               alt=""
               src="https://wwwd601d2yq4c.cdn.e2enetworks.net/content/Apr-2023.jpg"
             />
-<<<<<<< HEAD
           </a> */
 }
-=======
-          </a>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default FrameComponent6;
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960

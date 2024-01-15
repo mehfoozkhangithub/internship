@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import styles from "./frame-component9.module.css";
 import { useRouter } from "next/router";
-<<<<<<< HEAD
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -10,12 +9,6 @@ import "slick-carousel/slick/slick-theme.css";
 const FrameComponent8 = () => {
   const [blogs, setBlogs] = useState([]);
   const blogsPerPage = blogs.length;
-=======
-
-const FrameComponent8 = () => {
-  const [blogs, setBlogs] = useState([]);
-  const blogsPerPage = 4;
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   const [currentPage, setCurrentPage] = useState(1);
   const apiUrl = process.env.api;
   const carouselRef = useRef(null);
@@ -63,7 +56,6 @@ const FrameComponent8 = () => {
     const startIndex = (currentPage - 1) * blogsPerPage;
     const endIndex = startIndex + blogsPerPage;
     const visibleBlogs = blogs.slice(startIndex, endIndex);
-<<<<<<< HEAD
     var settings = {
       dots: true,
       infinite: true,
@@ -130,28 +122,6 @@ const FrameComponent8 = () => {
     </Slider>
   </div>
   };
-=======
-
-    return visibleBlogs.map((blog, index) => (
-      <div
-        key={index}
-        className={styles.rectangleParent}
-        onClick={() => handleBlogClick(blog.id)}
-      >
-        <img
-          className={styles.groupChild}
-          alt=""
-          src={blog.media[0].fileUrl || defaultImage} // Use the blog's image or default placeholder image
-        />
-        <div className={styles.blogTitle}>{truncateWords(blog.title, 4)}</div>
-        <div>{truncateWords(blog.state, 10)}</div>
-        <div>{truncateWords(blog.city, 10)}</div>
-        <div>{truncateWords(blog.country, 10)}</div>
-      </div>
-    ));
-  };
-
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   const truncateWords = (text, maxWords) => {
     const words = text.split(" ");
     if (words.length <= maxWords) {
@@ -162,7 +132,6 @@ const FrameComponent8 = () => {
   };
 
   return (
-<<<<<<< HEAD
     <div className="flex justify-center items-center bg-firebrick  mt-12 mb-24  rounded-tl-[200px]">
     <div className="flex flex-col md:flex-col lg:flex-row justify-between 2xl:justify-center items-center h-full w-full ">
       <div className="w-1/12 mx-4">
@@ -177,35 +146,6 @@ const FrameComponent8 = () => {
       </div> */}
     </div>
   </div>
-=======
-    <div className={styles.featuredContentParent}>
-      <div className={styles.featuredContent}>
-        <div style={{ display: "flex", alignItems: "center", width: "1200px" }}>
-          <h1 className={styles.featuredContent1}>Events</h1>
-          <div className={styles.carouselContainer}>
-            <button
-              className={`${styles.carouselButton1} prev`}
-              onClick={handlePrevClick}
-            >
-              &lt;
-            </button>
-            <div className={styles.carouselWrapper} ref={carouselRef}>
-              {renderBlogs()}
-            </div>
-            <button
-              className={`${styles.carouselButton2} next`}
-              onClick={handleNextClick}
-            >
-              &gt;
-            </button>
-          </div>
-        </div>
-        <div className={styles.featuredContentChild}>
-          {/* ... (navigation buttons, same as before) */}
-        </div>
-      </div>
-    </div>
->>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   );
 };
 

@@ -16,24 +16,24 @@ import AboutUs from "./AboutUs";
 const index = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Banner />
-      <AboutUs />
-      {/* <FrameComponent3 />
-      <br /> */}
-      {/* <FrameComponent4 />
-      <br /> */}
-      {/* <FrameComponent5 />
-      <br /> */}
-      {/* <FrameComponent6 />
-      <br /> */}
-      {/* <FrameComponent7 />
-      <br /> */}
-      {/* <FrameComponent8 />
-      <br /> */}
-      {/* <FrameComponent2 />
-      <br /> */}
-      {/* <FrameComponent9 /> */}
+      {/* <AboutUs /> */}
+      <FrameComponent3 />
+      <br />
+      <FrameComponent4 />
+      <br />
+      <FrameComponent5 />
+      <br />
+      <FrameComponent6 />
+      <br />
+      <FrameComponent7 />
+      <br />
+      <FrameComponent8 />
+      <br />
+      <FrameComponent2 />
+      <br />
+      <FrameComponent9 />
       <Footer />
     </div>
   );
