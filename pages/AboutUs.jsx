@@ -112,9 +112,27 @@ const AboutUs = () => {
           <div className="child_container_2">
             <div className="img_tag"></div>
             <div className="info">
-              <p> </p>
-              <p></p>
-              <p></p>
+              <p className=" text-[20px] font-normal">
+                Indias No.1, Tomorrows Global Leader
+              </p>
+              <p>IED Communications Ltd</p>
+              <p className="text-[20px] font-normal font-poppins leading-[1.65rem] text-justify">
+                IED Communications Ltd is not only the owner of Industrial
+                Automation monthly, but is also the organiser of India’s biggest
+                and Asia’s 2nd largest exhibition for the automation industry –
+                Automation Expo (www.automationindiaexpo.com). Together with the
+                magazine, the organisation has been in the business of promoting
+                the automation industry in India for over nearly 4 decades now
+                and has played a pivotal role in the evolution of the industry
+                in India, first through the Industrial Automation magazine and
+                later the exhibition. A brainchild of Dr M Arokiaswamy, Founder
+                & Managing Director, IED Communications Ltd endeavours to
+                understand and anticipate the needs of the Indian engineering
+                and manufacturing industries and cater to their requirement of a
+                reliable source of quality products and vendors, providing the
+                best solutions, services, products, technology and know-how
+                through its twin properties.
+              </p>
             </div>
           </div>
         </div>
