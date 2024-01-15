@@ -11,14 +11,16 @@ import FrameComponent8 from "./frame-component8";
 
 import FrameComponent9 from "./frame-component9";
 import Banner from "../components/Banner";
+import AboutUs from "./AboutUs";
 
 const index = () => {
   return (
     <div>
       <Header />
       <Banner />
-      <FrameComponent3 />
-      <br />
+      <AboutUs />
+      {/* <FrameComponent3 />
+      <br /> */}
       {/* <FrameComponent4 />
       <br /> */}
       {/* <FrameComponent5 />

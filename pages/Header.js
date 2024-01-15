@@ -44,7 +44,7 @@ const Header = () => {
     day: "numeric",
   });
   return (
-    <div className={styles.Header}>
+    <div className="h-auto justify-center font-poppins">
       {/* this is header which we have to woke on  */}
 
       <div className=" flex items-center justify-between p-8 shadow-offset-x-negative-3 shadow-offset-y-2 shadow-blur-8 shadow-color-rgba-0-0-0-0-1">
@@ -85,13 +85,13 @@ const Header = () => {
             style={{ width: "58px", backgroundColor: "#a1181b" }}
             onClick={toggleSidebar}
           >
-            <div className={styles.hamburgerIcon}>
-              <div className={styles.hamburgerLine} />
-              <div className={styles.hamburgerLine} />
-              <div className={styles.hamburgerLine} />
+            <div className="w-full h-[5px] mt-[10px] z-[999]">
+              <div className="w-full h-[5px] bg-[#dad5d5] m-[4px] z-[999]" />
+              <div className="w-full h-[5px] bg-[#dad5d5] m-[4px] z-[999]" />
+              <div className="w-full h-[5px] bg-[#dad5d5] m-[4px] z-[999]" />
             </div>
           </div>
-          <div className={styles.hrnavbar}>
+          <div className="bg-firebrick flex w-full h-11 cursor-pointer text-white justify-evenly items-center">
             <div
               className={styles.navbar}
               onClick={() => router.push(`/category/products`)}
@@ -140,7 +140,7 @@ const Header = () => {
           <div style={{ width: "200px" }}>
             {" "}
             <button
-              className={styles.subscribeNow}
+              className="w-[178px] h-[45px] font-semibold text-[20px] border-[white] text=[white] bg-red-600  rounded-bl-[20px] "
               onClick={() => router.push(`/subscription/subscription`)}
               style={{ cursor: "pointer" }}
             >
