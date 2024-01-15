@@ -1,7 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import "./global.css";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 function MyApp({ Component, pageProps }) {
   return (
     <React.Fragment>

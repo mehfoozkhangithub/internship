@@ -8,20 +8,14 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
-  // this is toggle function
-
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
   };
-
-  // this is the function for routing
 
   const handleMenuItemClick = (path) => {
     setIsMenuOpen(false);
     router.push(path);
   };
-
-  // this is for side_bar toggle
 
   const toggleSidebar = () => {
     setIsSidebarOpen((prev) => !prev);

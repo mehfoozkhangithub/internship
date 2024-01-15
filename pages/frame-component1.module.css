@@ -1,25 +1,29 @@
-.Header {
+/* .Header {
   height: auto;
   justify-content: center;
   font-family: "poppins";
-}
+  
+} */
 
-.logoFull1 {
+/* .logoFull1 {
   width: 165px;
   height: 80px;
   object-fit: cover;
-  padding: 4px;
-}
+} */
 
-.logo {
+/* .logo {
   background-color: white;
+  
+
   height: 150px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   box-shadow: -3px 2px 8px rgba(0, 0, 0, 0.1);
+
   align-items: center;
-}
+} */
+/* not to be deleted */
 .searchContainer {
   width: 60%;
 }
@@ -34,11 +38,12 @@
 
 .SearchInput2 {
   outline: none;
-  /* margin-left: 20px; */
-  width: 60%;
+  margin-left: 20px;
+  width: 40%;
   padding: 10px;
   margin-top: 8px;
   font-size: 17px;
+
 }
 
 .searchContainer button {
@@ -54,20 +59,27 @@
   color: white;
   margin-left: 10px;
 }
-
+/* .navbarParent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+   justify-content: center;   
+} */
 .hrnavbar {
   background-color: #a1181b;
   height: 45px;
   cursor: pointer;
   color: white;
-  width: 105%;
+  /* width: 100%; */
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between ;
   align-items: center;
+  /* padding-left: 25px; */
 }
 
 .subscribeNow {
-  width: 178px;
+  /* width: 100%; */
   height: 45px;
   font-weight: 600;
   font-size: 20px;
@@ -75,7 +87,7 @@
   color: white;
   background-color: red;
   border-bottom-left-radius: 20px;
-  margin-left: -15px;
+  /* margin-left:87px; */
 }
 
 .hamburgerMenu {
@@ -84,74 +96,16 @@
 
 .hamburgerIcon {
   width: 100%;
-  height: 5px;
-  margin-top: 10px;
+  /* height: 5px; */
+
+  /* margin-top: 10px; */
   z-index: 999;
 }
 
 .hamburgerLine {
-  width: 100%;
+  /* width: 100%; */
   height: 5px;
   background-color: #dad5d5;
   margin: 4px;
   z-index: 999;
 }
-/* this is code of the css */
-
-.formMobile {
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  height: 100%;
-}
-
-@media (max-width: 640px) {
-  .logoFull1 {
-    padding: 0 6px;
-  }
-
-  .SearchInput2 {
-    outline: none;
-    /* margin-left: 20px; */
-    width: 100%;
-    padding: 10px;
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 769px) {
-  .hrnavbar {
-    padding-right: 17px;
-    width: 100%;
-    justify-content: space-around;
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  .hrnavbar {
-    /* display: none; */
-    overflow: overlay;
-    justify-content: space-between;
-    padding-right: 32px;
-    gap: 10px;
-  }
-  .hrnavbar div {
-    width: 200px;
-  }
-}
-
-/*
-@media query screen size 👇
-
-# 1920 to 1080
-# 1366 to 768
-# 360 to 640
-# 414 to 896
-# 1536 to 864
-# 375 to 667
-
-*/

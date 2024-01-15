@@ -11,6 +11,7 @@
   align-items: center;
   height: 400px;
   /* Adjust the height as needed */
+ 
 }
 
 /* Featured Content Container */
@@ -122,12 +123,28 @@
 /* Carousel Wrapper */
 .carouselWrapper {
   display: flex;
+  width: 100%;
+  flex-direction: column;
   height: 350px;
   transition: transform 0.3s ease;
+
   /* Animation for sliding effect */
-  flex-direction: column;
+}
+.renderComponent{
+  display: flex;
+  flex-direction: row;
 }
 
+.button{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top:120px;
+  z-index: 999;
+  /* background-color: yellow; */
+}
 /* Sliding Buttons */
 .carouselButton1 {
   background-color: #ff0000;
@@ -136,7 +153,7 @@
   width: 25px;
   border-radius: 50%;
   height: 25px;
-  margin-top: 7%;
+  /* margin-top: 7%; */
 }
 
 .carouselButton2 {
@@ -146,7 +163,7 @@
   width: 25px;
   border-radius: 50%;
   height: 25px;
-  margin-top: 7%;
+  /* margin-top: 7%; */
 }
 
 .carouselButton.prev {
@@ -157,54 +174,48 @@
   right: 0;
 }
 
-.renderCompo {
-  display: flex;
-  flex-direction: row;
-}
 
-.button {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  position: absolute;
-  top: 110px;
-  z-index: 9;
-}
+/* for mobile */
+@media only screen and (max-width: 600px) {
+  
 
-/*$ here we have media query */
-
-/* * this is for large screen */
-@media screen and (min-width: 1028px) and (max-width: 1441px) {
-  .rectangleParent {
-    background-color: #08b51f;
-    width: 200px;
+  .featuredContent{
+    width: 100%;
   }
 
-  .carouselWrapper {
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-/*
-
-* here we go we have to take the chat gpt format media query 
-
-* here we have to take first small screen 
-
-*/
-
-/*# Default styles that apply to all screen sizes */
-
-/*! Small screens (less than 576px) */
-
-@media (max-width: 575.98px) {
-  /* font-size: 14px; */
+  
 
   .rectangleParent {
     width: 125px;
-    background-color: #f0f005;
+    overflow: hidden;
+  }
+  .carouselWrapper {
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow-x: scroll;
+    
+  }
+
+  .blogTitle {
+    font-size: 12px;
+    font-family: "poppins";
+    margin-bottom: 0;
+    margin-top: 10px;
+
+    text-align: start;
+  }
+}
+
+/* for tablet */
+ @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .featuredContent{
+    width: 100%;
+  }
+
+  
+
+  .rectangleParent {
+    width: 33.3%;
   }
   .carouselWrapper {
     flex-wrap: wrap;

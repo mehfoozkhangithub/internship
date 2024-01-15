@@ -30,10 +30,11 @@ const VideoBlogContainer = ({ playlistId, propTop, propLeft }) => {
   }, [playlistId]);
 
   return (
-    <div className={styles.rectangleParent} style={{ top: propTop, left: propLeft, width: "320px", height: "384px", overflowY: "scroll" }}>
+    <div className="w-full max-md:w-[436px] min-[2560px]:w-[614px]   h-full text-center text-mini text-black font-poppins overflow-y-scroll  " style={{ top: propTop, left: propLeft }}>
       {videos.map((video) => (
-        <div key={video.videoId} className={styles.videoContainer} >
+        <div key={video.videoId}   >
           <iframe
+          className="min-[2560px]:w-[557px] min-[2560px]:h-[260px] md:w-[252px] xl:w-[307px] "
             width="300"
             height="121"
             src={`https://www.youtube.com/embed/${video.videoId}?rel=0`}

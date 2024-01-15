@@ -43,15 +43,41 @@ body {
   --br-44xl-5: 63.5px;
 }
 
-@media screen and (min-width: 455px) and (max-width: 769px) {
-  .div_img {
-    width: 80% !important;
-    margin: auto !important;
-  }
+.carouselButton .slick-prev:before{
+  color: red !important;
+  font-size: 27px;
+  
 }
-@media screen and (min-width: 253px) and (max-width: 453px) {
-  .div_img {
-    width: 100% !important;
-    margin: 0 !important;
+.carouselButton .slick-next:before{
+  color: red !important;
+  font-size: 30px;
+  z-index: 999;
+
+}
+
+
+.image{
+  margin:0 ;
+  /* margin-left: 45px; */
+  /* margin-right: 4px; */
+  width:100% !important ;
+}
+.image>img{
+  width: 100% !important ;
+}
+
+@media (min-width: 1024px) {
+  .image{
+    width:329px !important;
+    margin-right: 19px!important;
   }
+  .image>img{
+    width: 329px !important ;
+     
+  }
+
+} 
+
+.image >figcaption>strong {
+    font-size: 17px;
 }

@@ -1,11 +1,12 @@
 .ctaChild {
-  position: absolute;
+  
   top: 216px;
   left: 0;
   background-color: var(--color-firebrick);
   max-width: 1519px;
   min-width: 1420px;
   height: 136px;
+  background-color: blue;
 }
 
 .groupChild {
@@ -13,12 +14,13 @@
   left: 0;
   border-radius: var(--br-7xs);
   background-color: var(--color-gainsboro);
+  background-color:aqua ;
 }
 
 .groupChild,
 .rectangleParent,
 .subscribeNow {
-  position: absolute;
+  
   width: 300px;
   height: 59.11px;
 }
@@ -36,10 +38,11 @@
   left: 1044px;
   text-align: center;
   color: var(--color-black);
+  background-color: green;
 }
 
 .magazineAd {
-  position: absolute;
+  
   top: 224px;
   left: 35%;
   font-size: var(--font-size-21xl);
@@ -47,14 +50,14 @@
 }
 
 .magazineDetails {
-  position: absolute;
+  
   top: 292px;
   left: 35%;
   font-size: var(--font-size-6xl);
 }
 
 .groupItem {
-  position: absolute;
+  
   top: 0;
   left: 0;
   width: 320px;
@@ -67,7 +70,7 @@
 .groupChild3,
 .groupInner,
 .rectangleIcon {
-  position: absolute;
+  
   top: 0;
   left: 360px;
   width: 146px;
@@ -99,16 +102,18 @@
 
 .cta,
 .rectangleGroup {
-  position: absolute;
+  /*  */
   top: 0;
   left: 10%;
-  width: 1250px;
-  height: 447px;
+  /* width: 1250px; */
+  /* height: 447px; */
+  /* background-color: yellow; */
 }
 
 .cta {
   left: 0;
   width: 1447px;
+  background-color: purple;
 }
 
 .ctaParent {
@@ -119,4 +124,5 @@
   font-size: var(--font-size-11xl);
   color: var(--color-white);
   font-family: var(--font-poppins);
+  background-color: red;
 }
