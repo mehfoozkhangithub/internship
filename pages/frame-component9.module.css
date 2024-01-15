@@ -10,7 +10,11 @@
   align-items: center;
   background-color: #a1181b;
   color: #fff;
+<<<<<<< HEAD
   /* border-top-left-radius: 200px; */
+=======
+  border-top-left-radius: 200px;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   height: 400px;
 
   /* Adjust the height as needed */

@@ -2,14 +2,21 @@ import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import styles from "./frame-component4.module.css";
 import { useRouter } from "next/router";
+<<<<<<< HEAD
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+=======
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
 
 const FrameComponent4 = () => {
   const [blogs, setBlogs] = useState([]);
   const [ad, setAd] = useState(null);
+<<<<<<< HEAD
   const blogsPerPage = blogs.length;
+=======
+  const blogsPerPage = 4;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   const [currentPage, setCurrentPage] = useState(1);
   const apiUrl = process.env.api;
   const carouselRef = useRef(null);
@@ -70,6 +77,7 @@ const FrameComponent4 = () => {
     const endIndex = startIndex + blogsPerPage;
     const visibleBlogs = blogs.slice(startIndex, endIndex);
 
+<<<<<<< HEAD
     var settings = {
       dots: true,
       infinite: true,
@@ -135,6 +143,25 @@ const FrameComponent4 = () => {
       ))}
     </Slider>
   </div>
+=======
+    return visibleBlogs.map((blog, index) => (
+      <div
+        key={index}
+        className={styles.rectangleParent}
+        onClick={() => handleBlogClick(blog.id)}
+      >
+        <img
+          className={styles.groupChild}
+          alt=""
+          src={blog.image || defaultImage} // Use the blog's image or default placeholder image
+        />
+        <div className={styles.blogTitle}>{truncateWords(blog.title, 6)}</div>
+        <div className={styles.desc}>
+          {truncateWords(blog.metaDescription, 6)}
+        </div>
+      </div>
+    ));
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   };
 
   const truncateWords = (text, maxWords) => {
@@ -147,6 +174,7 @@ const FrameComponent4 = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div className="flex justify-center items-center  mt-12 mb-24 px-5">
       <div className="flex flex-col items-center h-full w-[90%] ">
         <h1 className="text-[36px] font-poppins mb-5">
@@ -159,10 +187,22 @@ const FrameComponent4 = () => {
 
             alt="Ad"
             // style={{ objectFit: "fill", height: "500px", width: "1100px" }}
+=======
+    <div className={styles.featuredContentParent}>
+      <div className={styles.featuredContent}>
+        <h1 className={styles.featuredContent1}>Featured Products</h1>
+
+        {ad && (
+          <img
+            className={styles.featuredProductsChild}
+            alt="Ad"
+            style={{ objectFit: "fill", height: "500px", width: "1100px" }}
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
             src={ad.image || defaultImage}
           />
         )}
 
+<<<<<<< HEAD
 
         <div className="carouselButton h-4/5 w-full text-black" ref={carouselRef}>
           {renderBlogs()}
@@ -193,6 +233,25 @@ const FrameComponent4 = () => {
             </div> */}
           {/* </div> */}
         {/* </div> */}
+=======
+        <div className={styles.carouselContainer}>
+          <button
+            className={`${styles.carouselButton1} prev`}
+            onClick={handlePrevClick}
+          >
+            &lt;
+          </button>
+          <div className={styles.carouselWrapper} ref={carouselRef}>
+            {renderBlogs()}
+          </div>
+          <button
+            className={`${styles.carouselButton2} next`}
+            onClick={handleNextClick}
+          >
+            &gt;
+          </button>
+        </div>
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         <div className={styles.featuredContentChild}>
           {/* ... (navigation buttons, same as before) */}
         </div>

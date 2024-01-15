@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import styles from "./frame-component5.module.css";
 import { useRouter } from "next/router";
+<<<<<<< HEAD
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -9,6 +10,12 @@ import "slick-carousel/slick/slick-theme.css";
 const FrameComponent5 = () => {
   const [blogs, setBlogs] = useState([]);
   const blogsPerPage = blogs.length;
+=======
+
+const FrameComponent5 = () => {
+  const [blogs, setBlogs] = useState([]);
+  const blogsPerPage = 4;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   const [currentPage, setCurrentPage] = useState(1);
   const apiUrl = process.env.api;
   const carouselRef = useRef(null);
@@ -56,6 +63,7 @@ const FrameComponent5 = () => {
     const startIndex = (currentPage - 1) * blogsPerPage;
     const endIndex = startIndex + blogsPerPage;
     const visibleBlogs = blogs.slice(startIndex, endIndex);
+<<<<<<< HEAD
     var settings = {
       dots: true,
       infinite: true,
@@ -121,6 +129,29 @@ const FrameComponent5 = () => {
       ))}
     </Slider>
   </div>
+=======
+
+    return visibleBlogs.map((blog, index) => (
+      <div
+        key={index}
+        className={styles.rectangleParent}
+        onClick={() => handleBlogClick(blog.id)}
+      >
+        <img
+          className={styles.groupChild}
+          alt=""
+          src={blog.image || defaultImage} // Use the blog's image or default placeholder image
+        />
+        <div className={styles.blogTitle}>{truncateWords(blog.title, 4)}</div>
+        <div
+          className={styles.desc}
+          dangerouslySetInnerHTML={{
+            __html: truncateWords(blog.metaDescription, 8),
+          }}
+        ></div>
+      </div>
+    ));
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   };
 
   const truncateWords = (text, maxWords) => {
@@ -131,6 +162,7 @@ const FrameComponent5 = () => {
       return words.slice(0, maxWords).join(" ") + " ...";
     }
   };
+<<<<<<< HEAD
   
   return (
     <div className="flex justify-center items-center bg-firebrick  mt-12 mb-24 px-5">
@@ -143,6 +175,33 @@ const FrameComponent5 = () => {
         {/* <div className={styles.featuredContentChild}>
           ... (navigation buttons, same as before)
         </div> */}
+=======
+
+  return (
+    <div className={styles.featuredContentParent}>
+      <div className={styles.featuredContent}>
+        <h1 className={styles.featuredContent1}>Brand focus</h1>
+        <div className={styles.carouselContainer}>
+          <button
+            className={`${styles.carouselButton1} prev`}
+            onClick={handlePrevClick}
+          >
+            &lt;
+          </button>
+          <div className={styles.carouselWrapper} ref={carouselRef}>
+            {renderBlogs()}
+          </div>
+          <button
+            className={`${styles.carouselButton2} next`}
+            onClick={handleNextClick}
+          >
+            &gt;
+          </button>
+        </div>
+        <div className={styles.featuredContentChild}>
+          {/* ... (navigation buttons, same as before) */}
+        </div>
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
       </div>
     </div>
   );

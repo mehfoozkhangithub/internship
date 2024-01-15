@@ -64,7 +64,10 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: rgb(255, 255, 255);
   color: black;
+<<<<<<< HEAD
   
+=======
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
 }
 
 .rectangleParent:hover {
@@ -155,9 +158,12 @@
   /* max-width: 1200px; */
   transition: transform 0.3s ease;
   /* Animation for sliding effect */
+<<<<<<< HEAD
   background-color: black;
   justify-content: center;
   align-items: center;
+=======
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
 }
 
 /* Sliding Buttons */

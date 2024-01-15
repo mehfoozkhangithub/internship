@@ -15,17 +15,28 @@ const subscription = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div className="">
       <Header />
       <Banner />
       <div
         className=" w-full  container flex-col justify-center items-center lg:justify-evenly lg:flex-row  xl:mx-9"
+=======
+    <div>
+      <Header />
+      <Banner />
+      <div
+        className="container"
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         style={{ display: "flex", justifyContent: "space-evenly" }}
       >
         {/* Container for the image */}
         <div className="image-container">
           <img
+<<<<<<< HEAD
           className="     md:ml-20  w-[300px] md:w-[450px] "
+=======
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
             src="https://www.industrialautomationindia.in/images/banner/subscribe-2023-min.jpeg"
             alt="Image"
           />
@@ -33,11 +44,18 @@ const subscription = () => {
 
         {/* Container for the data */}
         <div
+<<<<<<< HEAD
         className="my-10 md:ml-20 lg:ml-0 w-[278px] md:w-[350px]"
           style={{
             border: "solid 1px",
             height: "330px",
             // width: "350px",
+=======
+          style={{
+            border: "solid 1px",
+            height: "330px",
+            width: "350px",
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
             borderRadius: "20px",
             textAlign: "center",
             backgroundColor: "red",

@@ -9,18 +9,19 @@ module.exports = {
       colors: {
         white: "#fff",
         crimson: "#d9262a",
+        crimson_200: "#e31e25",
         black: "#000",
         darkslategray: "#4a4a4a",
         dimgray: "#636363",
         gray: {
-          "100": "#7e7e7e",
-          "200": "#777",
-          "300": "rgba(0, 0, 0, 0.45)",
+          100: "#7e7e7e",
+          200: "#777",
+          300: "rgba(0, 0, 0, 0.45)",
         },
         darkgray: "#a1a1a1",
         silver: {
-          "100": "#c5c5c5",
-          "200": "#bbb",
+          100: "#c5c5c5",
+          200: "#bbb",
         },
         firebrick: "#a1181b",
         whitesmoke: "#f2f2f2",
@@ -39,13 +40,12 @@ module.exports = {
     },
     fontSize: {
       "3xs": "10px",
-      mini: "20px",
+      mini: "15px",
       "9xl": "28px",
       "21xl": "40px",
       xl: "20px",
       "6xl": "25px",
       "11xl": "30px",
-      "23xl":"55px"
     },
   },
   corePlugins: {
