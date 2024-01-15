@@ -178,12 +178,25 @@ const DirectoryGridPagination = ({ blogs }) => {
   };
 
   return (
+<<<<<<< HEAD
+    <div className="w-full my-2 font-poppins bg-yellow-400 ">
+
+
+
+
+{/* <div className="w-full  col-span-4 flex justify-center  mt-4  overflow-x-scroll md:overflow-hidden">
+        <ul className="w-full flex space-x-2 md:mr-5 ">
+          {Array.from({ length: 26 }).map((_, index) => (
+            <button
+              className={`bg-crimson hover:bg-transparent hover:border-solid hover:!text-crimson hover:border-[1px] border-transparent hover:border-crimson text-white font-medium py-2 px-3 w-full   duration-500 rounded ease-in-out cursor-pointer${selectedMonth === index + 1 ?  "bg-red-700"  : ""
+=======
     <div className="grid grid-cols-4 gap-4 mx-20 my-2 font-poppins">
       <div className="col-span-4 flex justify-center mt-4 mx-24">
         <ul className="flex space-x-2">
           {Array.from({ length: 26 }).map((_, index) => (
             <button
               className={`bg-red-500 hover:bg-red-900 text-white font-bold py-2 px-2 rounded ${selectedMonth === index + 1 ? "bg-red-900" : ""
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
                 }`}
               onClick={() => setSelectedMonth(index + 1)}
             >
@@ -191,12 +204,26 @@ const DirectoryGridPagination = ({ blogs }) => {
             </button>
           ))}
         </ul>
+<<<<<<< HEAD
+      </div> */}
+
+
+
+     
+      
+      <div className="w-full col-span-4 grid md:grid-cols-4 gap-4 ">
+        <div className="col-span-1 grid grid-cols-1 gap-1 ">
+          <div className="col-span-1 grid grid-cols-1 gap-1">
+            <div
+              className="bg-white shadow-lg rounded-lg overflow-hidden max-w-full border border-solid border-gray-300 m-auto md:m-0 w-[95%]"
+=======
       </div>
       <div className="col-span-4 grid grid-cols-4 gap-4 ">
         <div className="col-span-1 grid grid-cols-1 gap-1 ">
           <div className="col-span-1 grid grid-cols-1 gap-1">
             <div
               className="bg-white shadow-lg rounded-lg overflow-hidden max-w-full border border-solid border-gray-300"
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
               style={{ maxHeight: "300px", overflowY: "auto" }}
             >
               <div className="p-6">
@@ -221,7 +248,11 @@ const DirectoryGridPagination = ({ blogs }) => {
             </div>
           </div>
         </div>
+<<<<<<< HEAD
+        <div className="col-span-2 grid grid-rows-6 md:grid-cols-2 gap-2 bg-purple-700 ">
+=======
         <div className="col-span-2 grid grid-cols-2 gap-2  ">
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
           {trendingPosts.map((trending) => (
             <div
               key={trending._id}
@@ -259,7 +290,11 @@ const DirectoryGridPagination = ({ blogs }) => {
             <DirectoryAds />
           </div>
         </div>
+<<<<<<< HEAD
+        {/* <div className="col-span-4 flex justify-center mt-8">
+=======
         <div className="col-span-4 flex justify-center mt-8">
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
           {totalPages > 1 && (
             <nav>
               <ul className="flex space-x-6">
@@ -296,7 +331,11 @@ const DirectoryGridPagination = ({ blogs }) => {
               </ul>
             </nav>
           )}
+<<<<<<< HEAD
+        </div> */}
+=======
         </div>
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
       </div>
     </div>
   );

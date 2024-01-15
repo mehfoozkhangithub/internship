@@ -1,3 +1,22 @@
+<<<<<<< HEAD
+/* .Header {
+  height: auto;
+  justify-content: center;
+  font-family: "poppins";
+  
+} */
+
+/* .logoFull1 {
+  width: 165px;
+  height: 80px;
+  object-fit: cover;
+} */
+
+/* .logo {
+  background-color: white;
+  
+
+=======
 .Header {
   height: auto;
   justify-content: center;
@@ -13,13 +32,21 @@
 
 .logo {
   background-color: white;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   height: 150px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   box-shadow: -3px 2px 8px rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
+
+  align-items: center;
+} */
+/* not to be deleted */
+=======
   align-items: center;
 }
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
 .searchContainer {
   width: 60%;
 }
@@ -29,16 +56,29 @@
   padding: 10px;
   margin-top: 8px;
   font-size: 17px;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   outline: none;
 }
 
 .SearchInput2 {
   outline: none;
+<<<<<<< HEAD
+  margin-left: 20px;
+  width: 40%;
+  padding: 10px;
+  margin-top: 8px;
+  font-size: 17px;
+
+=======
   /* margin-left: 20px; */
   width: 60%;
   padding: 10px;
   margin-top: 8px;
   font-size: 17px;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
 }
 
 .searchContainer button {
@@ -54,12 +94,33 @@
   color: white;
   margin-left: 10px;
 }
+<<<<<<< HEAD
+/* .navbarParent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+   justify-content: center;   
+} */
+=======
 
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
 .hrnavbar {
   background-color: #a1181b;
   height: 45px;
   cursor: pointer;
   color: white;
+<<<<<<< HEAD
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  /* padding-left: 25px; */
+}
+
+.subscribeNow {
+  /* width: 100%; */
+=======
   width: 105%;
   display: flex;
   justify-content: space-evenly;
@@ -68,6 +129,7 @@
 
 .subscribeNow {
   width: 178px;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   height: 45px;
   font-weight: 600;
   font-size: 20px;
@@ -75,7 +137,11 @@
   color: white;
   background-color: red;
   border-bottom-left-radius: 20px;
+<<<<<<< HEAD
+  /* margin-left:87px; */
+=======
   margin-left: -15px;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
 }
 
 .hamburgerMenu {
@@ -84,17 +150,30 @@
 
 .hamburgerIcon {
   width: 100%;
+<<<<<<< HEAD
+  /* height: 5px; */
+
+  /* margin-top: 10px; */
+=======
   height: 5px;
   margin-top: 10px;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   z-index: 999;
 }
 
 .hamburgerLine {
+<<<<<<< HEAD
+  /* width: 100%; */
+=======
   width: 100%;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   height: 5px;
   background-color: #dad5d5;
   margin: 4px;
   z-index: 999;
+<<<<<<< HEAD
+}
+=======
 }
 /* this is code of the css */
 
@@ -155,3 +234,4 @@
 # 375 to 667
 
 */
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960

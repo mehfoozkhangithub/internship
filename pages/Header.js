@@ -8,21 +8,30 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
+<<<<<<< HEAD
+=======
   // this is toggle function
 
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
   };
 
+<<<<<<< HEAD
+=======
   // this is the function for routing
 
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   const handleMenuItemClick = (path) => {
     setIsMenuOpen(false);
     router.push(path);
   };
 
+<<<<<<< HEAD
+=======
   // this is for side_bar toggle
 
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   const toggleSidebar = () => {
     setIsSidebarOpen((prev) => !prev);
   };
@@ -45,6 +54,38 @@ const Header = () => {
   });
   return (
     <div className="h-auto justify-center font-poppins">
+<<<<<<< HEAD
+      <div className="bg-white w-full h-36 md:h-[150px] flex justify-between items-center">
+        <img
+          className="w-40 h-20 object-cover"
+          alt=""
+          src="/logo-full-11@2x.png"
+          onClick={() => router.push(`/`)}
+        />
+        <div className={styles.searchContainer}>
+          <form className="flex">
+            <input type="text" placeholder="Search.." name="search" className={styles.SearchInput2} />
+            <button type="submit"><i className="">Search</i></button>
+          </form>
+        </div>
+      </div>
+
+
+      <div className="w-full">
+      <div className="flex-row justify-between w-full">
+          
+          <div className={`${styles.hrnavbar} md:pl-4 pl-2`}>
+          <div className="w-[58px]" onClick={toggleSidebar}>
+            <div className={styles.hamburgerIcon}>
+              <div className={styles.hamburgerLine} />
+              <div className={styles.hamburgerLine} />
+              <div className={styles.hamburgerLine} />
+            </div>
+          </div>
+          <div className="flex justify-between items-center w-4/5 overflow-x-auto">
+            <div
+              className="lg:pl-10 pl-5"
+=======
       {/* this is header which we have to woke on  */}
 
       <div className=" flex items-center justify-between p-8 shadow-offset-x-negative-3 shadow-offset-y-2 shadow-blur-8 shadow-color-rgba-0-0-0-0-1">
@@ -94,24 +135,48 @@ const Header = () => {
           <div className="bg-firebrick flex w-full h-11 cursor-pointer text-white justify-evenly items-center">
             <div
               className={styles.navbar}
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
               onClick={() => router.push(`/category/products`)}
             >
               Products
             </div>
             <div
+<<<<<<< HEAD
+              className="lg:pl-16 pl-10"
+=======
               className={styles.navbar}
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
               onClick={() => router.push(`/category/interview`)}
             >
               Interviews
             </div>
             {/* <div className={styles.navbar}>Magazines</div> */}
             <div
+<<<<<<< HEAD
+              className="lg:pl-16 pl-10"
+=======
               className={styles.navbar}
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
               onClick={() => router.push(`/category/news`)}
             >
               News
             </div>
             <div
+<<<<<<< HEAD
+              className="lg:pl-16 pl-10"
+              onClick={() => router.push(`/category/casestudy`)}
+            >
+            Case Study 
+            </div>
+            <div
+              className="lg:pl-16 pl-10"
+              onClick={() => router.push(`/category/article`)}
+            >
+              Aricles
+            </div>
+            <div
+              className="lg:pl-16 pl-10"
+=======
               className={styles.navbar}
               onClick={() => router.push(`/category/casestudy`)}
             >
@@ -125,36 +190,64 @@ const Header = () => {
             </div>
             <div
               className={styles.navbar}
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
               onClick={() => router.push(`/events/events`)}
             >
               Events
             </div>
             <div
+<<<<<<< HEAD
+              className="lg:px-16 px-10"
+=======
               className={styles.navbar}
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
               onClick={() => router.push(`/directory/directories`)}
             >
               Directories
             </div>
+<<<<<<< HEAD
+            <div style={{ width: "200px" }}>
+            {" "}
+            
+          </div>
+          </div>
+          <button
+              className={styles.subscribeNow}
+=======
           </div>
 
           <div style={{ width: "200px" }}>
             {" "}
             <button
               className="w-[178px] h-[45px] font-semibold text-[20px] border-[white] text=[white] bg-red-600  rounded-bl-[20px] "
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
               onClick={() => router.push(`/subscription/subscription`)}
               style={{ cursor: "pointer" }}
             >
               Subscribe Now
             </button>
           </div>
+<<<<<<< HEAD
+
+          
+
+=======
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         </div>
       </div>
       <HeaderAds />
 
+<<<<<<< HEAD
+
+      <div
+        className={`${sidebarStyles.sidebar} ${isSidebarOpen ? sidebarStyles.open : ""
+          }`}
+=======
       <div
         className={`${sidebarStyles.sidebar} ${
           isSidebarOpen ? sidebarStyles.open : ""
         }`}
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
       >
         <div className={sidebarStyles.navbarhead}>
           <img
@@ -211,6 +304,10 @@ const Header = () => {
           ))}
         </div>
       )}
+<<<<<<< HEAD
+
+=======
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
     </div>
   );
 };

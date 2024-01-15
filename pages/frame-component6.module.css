@@ -1,11 +1,19 @@
 .ctaChild {
+<<<<<<< HEAD
+  
+=======
   position: absolute;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   top: 216px;
   left: 0;
   background-color: var(--color-firebrick);
   max-width: 1519px;
   min-width: 1420px;
   height: 136px;
+<<<<<<< HEAD
+  background-color: blue;
+=======
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
 }
 
 .groupChild {
@@ -13,12 +21,20 @@
   left: 0;
   border-radius: var(--br-7xs);
   background-color: var(--color-gainsboro);
+<<<<<<< HEAD
+  background-color:aqua ;
+=======
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
 }
 
 .groupChild,
 .rectangleParent,
 .subscribeNow {
+<<<<<<< HEAD
+  
+=======
   position: absolute;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   width: 300px;
   height: 59.11px;
 }
@@ -36,10 +52,18 @@
   left: 1044px;
   text-align: center;
   color: var(--color-black);
+<<<<<<< HEAD
+  background-color: green;
+}
+
+.magazineAd {
+  
+=======
 }
 
 .magazineAd {
   position: absolute;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   top: 224px;
   left: 35%;
   font-size: var(--font-size-21xl);
@@ -47,14 +71,22 @@
 }
 
 .magazineDetails {
+<<<<<<< HEAD
+  
+=======
   position: absolute;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   top: 292px;
   left: 35%;
   font-size: var(--font-size-6xl);
 }
 
 .groupItem {
+<<<<<<< HEAD
+  
+=======
   position: absolute;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   top: 0;
   left: 0;
   width: 320px;
@@ -67,7 +99,11 @@
 .groupChild3,
 .groupInner,
 .rectangleIcon {
+<<<<<<< HEAD
+  
+=======
   position: absolute;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   top: 0;
   left: 360px;
   width: 146px;
@@ -99,16 +135,29 @@
 
 .cta,
 .rectangleGroup {
+<<<<<<< HEAD
+  /*  */
+  top: 0;
+  left: 10%;
+  /* width: 1250px; */
+  /* height: 447px; */
+  /* background-color: yellow; */
+=======
   position: absolute;
   top: 0;
   left: 10%;
   width: 1250px;
   height: 447px;
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
 }
 
 .cta {
   left: 0;
   width: 1447px;
+<<<<<<< HEAD
+  background-color: purple;
+=======
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
 }
 
 .ctaParent {
@@ -119,4 +168,8 @@
   font-size: var(--font-size-11xl);
   color: var(--color-white);
   font-family: var(--font-poppins);
+<<<<<<< HEAD
+  background-color: red;
+=======
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
 }

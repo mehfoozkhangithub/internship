@@ -14,6 +14,10 @@ const BlogDetails = () => {
   const router = useRouter();
   const { id } = router.query;
   const [post, setPost] = useState(null);
+<<<<<<< HEAD
+  console.log(post)
+=======
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
   const [isLoading, setIsLoading] = useState(true);
   const apiUrl = process.env.api;
 
@@ -22,6 +26,10 @@ const BlogDetails = () => {
       try {
         const response = await axios.get(`${apiUrl}/api/post/posts/${id}`);
         setPost(response.data.post);
+<<<<<<< HEAD
+        console.log(post);
+=======
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
         setIsLoading(false);
       } catch (error) {
         console.log("Error:", error);
@@ -66,6 +74,17 @@ const BlogDetails = () => {
   return (
     <>
       <Header />
+<<<<<<< HEAD
+      <div className=" bg-white py-8  w-full h-full ">
+        <div className="container w-full  sm:w-[70%]  lg:w-[90%]  xl:w-[70%] mx-auto ">
+          <div className="h-full w-[95%] flex flex-col justify-end  ml-1">
+            <div className="border-b-2 border-red-500">
+              <h2 className="text-3xl text-left font-bold text-black font-poppins mb-4 ml-2 sm:ml-6">
+                {post.title}
+              </h2>
+            </div>
+            {/* <img
+=======
       <div className="bg-white py-8">
         {/* this is contain which means div */}
         <div className="container mx-auto px-16">
@@ -73,6 +92,7 @@ const BlogDetails = () => {
             {post.title}
           </h2>
           <img
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
             src={
               post.image ||
               "https://wwwd601d2yq4c.cdn.e2enetworks.net/ia-log-2020.png"
@@ -80,6 +100,56 @@ const BlogDetails = () => {
             alt={post.title}
             className="rounded-3xl mb-2 "
             style={{ maxHeight: "300px", minHeight: "100px", width: "400px" }}
+<<<<<<< HEAD
+          /> */}
+            <div className="text-black font-poppins mb-6 sm:ml-6">
+              <p
+                className="text-[16px] sm:text-sm leading-relaxed "
+                dangerouslySetInnerHTML={{ __html: post.description }}
+              />
+            </div>
+            <div className=" flex flex-col w-full ">
+              <div className="w-full  flex mb-2">
+                <div className="w-full sm:w-1/2 lg:w-1/6 flex ml-2">
+                  <p className="text-black font-poppins mb-1">
+                    <FontAwesomeIcon icon={faList} />
+                  </p>
+                  <p className="text-black font-poppins ml-2">
+                    {post.category}
+                  </p>
+                </div>
+                <div className="w-full sm:w-1/2 lg:w-1/6  flex">
+                  <p className="text-black font-poppins mb-1">
+                    <FontAwesomeIcon icon={faBuilding} />
+                  </p>
+                  <p className="text-black font-poppins ml-2">
+                    {post.selectedIndustry}
+                  </p>
+                </div>
+                <div className="w-full sm:w-1/2 lg:w-1/8  flex">
+                  <p className="text-black font-poppins mb-1">
+                    <FontAwesomeIcon icon={faCalendarAlt} />
+                  </p>
+                  <p className="text-black font-poppins ml-2">
+                    {formatDate(post.createdAt)}
+                  </p>
+                </div>
+              </div>
+              <div className="w-full py-2 ">
+              <div className="flex w-full gap-2 overflow-hidden overflow-x-visible">
+                  {post.keyword
+                    .toString()
+                    .split(" ")
+                    .map((key) => (
+                      <button
+                        key={key}
+                        className=" bg-red-500 cursor-pointer hover:bg-transparent hover:border-solid  hover:!text-red-500  hover:border-red-500 text-white font-medium py-2 px-3 w-full   duration-500 rounded ease-in-out"
+                      >
+                        {key}
+                      </button>
+                    ))}
+                </div>
+=======
           />
           <div className="text-black font-poppins mb-6 mr-64">
             <p
@@ -123,6 +193,7 @@ const BlogDetails = () => {
                       {key}
                     </button>
                   ))}
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
               </div>
             </div>
           </div>

@@ -2,13 +2,15 @@ import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import { useRouter } from "next/router";
 import styles from "./frame-component3.module.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const FrameComponent3 = () => {
-  // # this is the function we use to store the state of application
   const [blogs, setBlogs] = useState([]);
-  const blogsPerPage = 4;
+  const blogsPerPage = blogs.length;
   const [currentPage, setCurrentPage] = useState(1);
-  const apiUrl = process.env.api; // this is api
+  const apiUrl = process.env.api;
   const carouselRef = useRef(null);
   const router = useRouter();
 
@@ -49,36 +51,83 @@ const FrameComponent3 = () => {
   const handleBlogClick = (blogId) => {
     router.push(`/category/news?id=${blogId}`);
   };
-  console.log(blogs, "this is blog");
-
-  // # not understand
 
   const renderBlogs = () => {
     const startIndex = (currentPage - 1) * blogsPerPage;
     const endIndex = startIndex + blogsPerPage;
     const visibleBlogs = blogs.slice(startIndex, endIndex);
 
-    return visibleBlogs.map((blog, index) => (
-      <div
-        key={index}
-        className={styles.rectangleParent}
-        onClick={() => handleBlogClick(blog.id)}
-      >
-        <img
-          className={styles.groupChild}
-          alt=""
-          src={blog.image || defaultImage}
-        />
-        <div className={styles.blogTitle}>{truncateWords(blog.title, 6)}</div>
-        {/* <div className={styles.blogTitle}>{truncateWords(blog.description, 6)}</div> */}
-      </div>
-    ));
+    var settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [
+       
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 1,
+            
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots:false
+           
+          }
+        }
+      ]
+    };
+
+   
+
+    return <div className="">
+    <Slider {...settings}>
+      {visibleBlogs.map((blog, index) => (
+        <div key={index} onClick={()=>handleBlogClick(blog.id)} className=" h-[400px] 2xl:h-[464px]  mx-2 text-center  w-[30%] py-3 pr-3 text-black cursor-pointer ">
+          <div className="h-[90%] m-3 bg-transparent  rounded-3xl hover:transform hover:scale-110 duration-200   border border-solid border-[#e0e0e0] shadow-xl  overflow-hidden   text-black  ">
+            <div className="h-[60%] flex justify-center items-center pt-2  rounded-t-3xl ">
+              <img
+                src={blog.image || defaultImage}
+                alt=""
+                className="w-[90%] object-fill h-full text-center rounded-2xl "
+              />
+            </div>
+            <div className="rounded-b-3xl  h-[30%] p-1 2xl:mt-3 ">
+              <div className="text-mini min-2xl:text-6xl   font-medium 2xl:font-semibold font-poppins mb-0  pl-2 mt-1">
+                {truncateWords(blog.title, 4)}
+              </div>
+              <div
+                className="2xl:text-mini 2xl:pb-1 2xl:font-medium pl-1"
+                dangerouslySetInnerHTML={{
+                  __html: truncateWords(blog.metaDescription, 8),
+                }}
+              ></div>
+            </div>
+          </div>
+        </div>
+      ))}
+    </Slider>
+  </div>
   };
 
-  // # not understand
-
   const truncateWords = (text, maxWords) => {
-    // console.log(maxWords, "this is maxWord");
     const words = text.split(" ");
     if (words.length <= maxWords) {
       return text;
@@ -88,45 +137,18 @@ const FrameComponent3 = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-[400px] w-full ">
-      <div className="flex h-[400px] flex-col items-center">
-        <h1 className="text-[36px] font-poppins mb-5">News</h1>
-        <div className="flex overflow-hidden relative w-full ">
-          <div
-            className="flex h-[350px] flex-col transition-transform duration-300 ease-out "
-            ref={carouselRef}
-          >
-            <div className="flex justify-between absolute w-full top-[110px] z-10">
-              {/* this is my code 👇  */}
-
-              {/*   <button
-                className={`${styles.carouselButton1} prev`}
-                onClick={handlePrevClick}
-              >
-                &lt;
-              </button> */}
-              {/* this is nikile code 👇  */}
-
-              <button
-                className="prev m-3 flex justify-center items-center p-4 md:m-0 bg-[#ff0000] text-white border-none w-6 rounded-full h-6 "
-                onClick={handlePrevClick}
-              >
-                <span className="text-9xl md:text-mini rotate-180 pb-1">➜</span>
-              </button>
-
-              <button
-                className={`${styles.carouselButton2} next`}
-                onClick={handleNextClick}
-              >
-                &gt;
-              </button>
-            </div>
-            <div className="flex flex-row ">{renderBlogs()}</div>
-          </div>
-        </div>
-        {/* <div className={styles.featuredContentChild}></div> */}
+    <div className="flex justify-center items-center  mt-12 mb-24 px-5">
+    <div className="flex flex-col justify-center items-center h-full w-[90%]  mx-22 ">
+    <h1 className="text-[36px] font-poppins mb-5">News</h1>
+      <div className="carouselButton h-4/5 w-full text-black" ref={carouselRef}>
+        {renderBlogs()}
       </div>
+
+      {/* <div className={styles.featuredContentChild}>
+        ... (navigation buttons, same as before)
+      </div> */}
     </div>
+  </div>
   );
 };
 

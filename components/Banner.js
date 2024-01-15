@@ -7,6 +7,10 @@ import "slick-carousel/slick/slick-theme.css";
 const Banner = () => {
   const [ads, setAds] = useState([]);
   const apiUrl = process.env.api;
+<<<<<<< HEAD
+ 
+=======
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
 
   useEffect(() => {
     const api = `${apiUrl}/api/banner/allbanners`;
@@ -19,14 +23,22 @@ const Banner = () => {
 
   // Settings for the horizontal slider
   const sliderSettings = {
+<<<<<<< HEAD
+    dots: false,
+=======
     dots: true,
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Number of slides to show at once
     slidesToScroll: 1, // Number of slides to scroll on navigation
     autoplay: true, // Enable autoplay
     autoplaySpeed: 3000, // Set autoplay speed in milliseconds (adjust as needed)
+<<<<<<< HEAD
+    arrows: false, // Show navigation arrows
+=======
     arrows: false, // Show navigation arrows,
+>>>>>>> 3083bc45b76bf50104c6ffe0b4015ad95c7a4960
     pauseOnHover: true, // Pause autoplay on hover
     swipeToSlide: true, // Enable swiping to navigate
     adaptiveHeight: true, // Adjust the height of each slide based on its content
